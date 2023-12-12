@@ -1,0 +1,23 @@
+.dropdown-all {
+display: grid;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 900px;
+}
+
+.content {
+    visibility: hidden;
+    display: grid;
+    background-color: gray;
+}
+
+button {
+    background-color: white;
+   height: 20px
+}
+
+a {
+    text-decoration: none;
+}
