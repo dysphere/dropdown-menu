@@ -23,7 +23,6 @@ module.exports = {
       title: "Development",
       template: './dist/index.html'
     }),
-    new MiniCssExtractPlugin()
   ],
   module: {
     rules: [
@@ -38,10 +37,6 @@ module.exports = {
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: "asset/resource",
-      },
-      {
-        test: /\.css$/i,
-        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
     ],
   },
